@@ -1,0 +1,22 @@
+{
+    "name": "minimal-dark",
+    "displayName": "Minimal Dark",
+    "description": "A dark theme created to be minimal",
+    "version": "0.0.1",
+    "publisher": "Greys",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Minimal Dark by Greys",
+                "uiTheme": "vs-dark",
+                "path": "./themes/minimal-dark-color-theme.json"
+            }
+        ]
+    }
+}
